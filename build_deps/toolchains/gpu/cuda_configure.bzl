@@ -52,6 +52,11 @@ _PYTHON_BIN_PATH = "PYTHON_BIN_PATH"
 
 _DEFAULT_CUDA_COMPUTE_CAPABILITIES = [
     "3.5",
+    "3.7",
+    "7.0",
+    "7.5",
+    "5.0",
+    "6.1",
     "5.2",
 ]
 

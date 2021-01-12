@@ -9,6 +9,7 @@
 #include "tensorflow/core/platform/macros.h"
 #include "tensorflow_addons/custom_ops/layers/cc/kernels/deformable_conv_op.h"
 #include "third_party/eigen3/unsupported/Eigen/CXX11/ThreadPool"
+#include "tensorflow/core/framework/kernel_shape_util.h"
 
 namespace tensorflow {
 namespace addons {

@@ -168,6 +168,8 @@ def _get_default_cuda_paths(cuda_version):
         "/usr/local/cuda-%s" % cuda_version,
         "/usr/local/cuda",
         "/usr",
+        "/usr/lib64/",
+        "/usr/local/cuda/lib64/",
         "/usr/local/cudnn",
     ] + _get_ld_config_paths()
 

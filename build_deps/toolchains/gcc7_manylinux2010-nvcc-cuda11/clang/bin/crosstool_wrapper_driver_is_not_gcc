@@ -38,8 +38,10 @@ import sys
 import pipes
 
 # Template values set by cuda_autoconf.
-CPU_COMPILER = ('/dt7/usr/bin/gcc')
-GCC_HOST_COMPILER_PATH = ('/dt7/usr/bin/gcc')
+#CPU_COMPILER = ('/dt7/usr/bin/gcc')
+#GCC_HOST_COMPILER_PATH = ('/dt7/usr/bin/gcc')
+CPU_COMPILER = ('/opt/rh/devtoolset-7/root/usr/bin/g++')
+GCC_HOST_COMPILER_PATH = ('/opt/rh/devtoolset-7/root/usr/bin/g++')
 
 NVCC_PATH = '/usr/local/cuda-11.0/bin/nvcc'
 PREFIX_DIR = os.path.dirname(GCC_HOST_COMPILER_PATH)

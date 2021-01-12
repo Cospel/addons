@@ -7,6 +7,7 @@
 #include "tensorflow/core/framework/common_shape_fns.h"
 #include "tensorflow/core/framework/op.h"
 #include "tensorflow/core/framework/shape_inference.h"
+#include "tensorflow/core/framework/kernel_shape_util.h"
 
 namespace tensorflow {
 namespace addons {
